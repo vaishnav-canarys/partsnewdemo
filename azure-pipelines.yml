@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
 
 schedules:
-- cron: "17 13 11 1-12 *"
+- cron: "00 08 11 1-12 *"
   displayName: Monthly build and Release
   branches:
     include:
