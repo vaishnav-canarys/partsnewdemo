@@ -8,10 +8,11 @@ schedules:
   displayName: Monthly build and Release
   branches:
     include:
-       - master
+        - master
 
 pool:
   vmImage: 'windows-latest'
+
 
 variables:
   solution: '**/*.sln'
