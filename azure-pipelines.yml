@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
 
 schedules:
-- cron: "15 13 11 1-12 *"
+- cron: "17 13 11 1-12 *"
   displayName: Monthly build and Release
   branches:
     include:
@@ -33,7 +33,3 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
