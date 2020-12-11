@@ -1,14 +1,11 @@
-# ASP.NET
-# Build and test ASP.NET projects.
-# Add steps that publish symbols, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
 
 schedules:
-- cron: "00 08 11 1-12 *"
+- cron: "10 08 11 1-12 *"
   displayName: Monthly build and Release
   branches:
     include:
-        - master
+    - master
+  always: true
 
 pool:
   vmImage: 'windows-latest'
