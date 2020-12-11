@@ -8,7 +8,7 @@ schedules:
   displayName: Monthly build and Release
   branches:
     include:
-       - main
+       - master
 
 pool:
   vmImage: 'windows-latest'
