@@ -4,7 +4,7 @@ on:
   workflow_dispatch:   
 env:
   
-  SLN_FILE: PartsUnlimited.sln
+  SLN_FILE: PartsUnlimited-aspnet45\PartsUnlimited.sln
  
 jobs:
   build:
