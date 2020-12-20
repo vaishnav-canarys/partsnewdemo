@@ -23,10 +23,9 @@ jobs:
     #    run: |
     #      msbuild ${{env.SLN_FILE}} /p:TransformWebConfigEnabled=False /p:AutoParameterizationWebConfigConnectionStrings=False /p:Configuration=Release /p:Platform='Any CPU' /p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="${{github.workspace}}\stagingdir"
       - name: Copy
-        uses: MadaraUchiha/copy-action@0.0.1
-        with:
-          source: ${{github.workspace}}
-          target: ${{github.workspace}}\stagingdir
+        run: Copy-Item -path ${{github.workspace}} -Destination ${{github.workspace}}\stagingdir
+        shell: pwsh
+        
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
         with:
