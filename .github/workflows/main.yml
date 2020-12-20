@@ -34,7 +34,7 @@ jobs:
 
   deploy:
     name: Download artifacts
-    runs-on: windows-new
+    runs-on: self-hosted
     needs: [build]
     steps:
       - name: Download Build Artifact
