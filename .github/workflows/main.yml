@@ -9,7 +9,7 @@ env:
 jobs:
   build:
     name: BUILD USING VS2019
-    runs-on: windows-latest
+    runs-on: self-hosted
     steps:
       - name: Checkout
         uses: actions/checkout@v2.2.0
