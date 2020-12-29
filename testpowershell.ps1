@@ -1,4 +1,4 @@
-Run Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 
 $pool_name = "TestPool"
 $site_name = "TestSite"
