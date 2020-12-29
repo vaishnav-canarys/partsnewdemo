@@ -10,5 +10,6 @@ jobs:
     steps:
         
       - name: Powershell Test
+        shell: pwsh
         run: |
           testpowershell.ps1
