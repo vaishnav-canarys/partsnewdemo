@@ -1,0 +1,16 @@
+name: Test for powershell
+
+on:
+  workflow_dispatch:   
+
+jobs:
+  build:
+    name: Test
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.2.0
+        
+      - name: Powershell Test
+        run: |
+          .\testpowershell.ps1
