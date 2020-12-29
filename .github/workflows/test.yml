@@ -11,4 +11,4 @@ jobs:
         
       - name: Powershell Test
         run: |
-          .\testpowershell.ps1
+          testpowershell.ps1
