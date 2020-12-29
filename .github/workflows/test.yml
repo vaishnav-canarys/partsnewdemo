@@ -8,8 +8,6 @@ jobs:
     name: Test
     runs-on: windows-qa
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2.2.0
         
       - name: Powershell Test
         run: |
