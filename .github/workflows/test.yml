@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Test
-    runs-on: windows-qa
+    runs-on: windows-latest
     steps:
         
       - name: Powershell Test
