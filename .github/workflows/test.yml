@@ -8,8 +8,8 @@ jobs:
     name: Test
     runs-on: windows-latest
     steps:
-        
+      - name: Checkout
+        uses: actions/checkout@v2.2.0
       - name: Powershell Test
-        shell: pwsh
         run: |
-          & '.\testpowershell.ps1'
+          & 'testpowershell.ps1'
