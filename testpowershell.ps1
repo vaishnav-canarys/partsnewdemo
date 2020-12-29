@@ -1,3 +1,5 @@
+Run Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+
 $pool_name = "TestPool"
 $site_name = "TestSite"
 $packagepath = "C:\Temp"
