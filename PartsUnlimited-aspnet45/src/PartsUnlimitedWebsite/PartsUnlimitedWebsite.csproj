@@ -23,6 +23,7 @@
     <TargetFrameworkProfile />
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -340,6 +341,7 @@
     </AdditionalFiles>
     <None Include="Properties\PublishProfiles\partsunlimited-vcurrent.pubxml" />
     <None Include="Properties\PublishProfiles\partsunlimitedcus07.pubxml" />
+    <Content Include="HtmlPage1.html" />
     <Content Include="Images\admin_icon.png" />
     <Content Include="Images\admin_mo_icon.png" />
     <Content Include="Images\cart_icon.png" />
