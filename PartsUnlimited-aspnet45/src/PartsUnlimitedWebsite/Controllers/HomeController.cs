@@ -116,7 +116,7 @@ public ActionResult Recomendations()
                 },
                 new CommunityPost {
                     Content= "Ut consectetur sed justo vel convallis. Vestibulum quis metus leo. Nulla hendrerit pharetra dui, vel euismod lectus elementum sit amet. Nam dolor turpis, sodales non mi nec.",
-                    DatePosted = DateTime.Now,
+                    DatePosted = Date,
                     Image = "community_4.png",
                     Source = CommunitySource.Facebook
                 }
