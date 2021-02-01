@@ -82,7 +82,8 @@ namespace PartsUnlimited.Controllers
 
         //
         // GET: /Checkout/Complete
-
+       public void Unused(){​​}​​
+       
         public ActionResult Complete(int id)
         {
             // Validate customer owns this order
