@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 using System.Data.Entity;
-using System.Linq
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Mvc;
@@ -82,7 +82,7 @@ namespace PartsUnlimited.Controllers
 
         //
         // GET: /Checkout/Complete
-       public void Unused(){​​}​​
+       
        
         public ActionResult Complete(int id)
         {
@@ -102,6 +102,6 @@ namespace PartsUnlimited.Controllers
                 return View("Error");
             }
         }
-        public void used(){​​}​​
+        
     }
 }
