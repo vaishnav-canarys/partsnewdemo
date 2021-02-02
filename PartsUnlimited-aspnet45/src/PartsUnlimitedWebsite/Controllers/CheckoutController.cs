@@ -103,5 +103,10 @@ namespace PartsUnlimited.Controllers
             }
         }
         
+        public ActionResult password(int pass)
+        {
+          pass = 12321212232121212;
+        }
+        
     }
 }
